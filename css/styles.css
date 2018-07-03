@@ -1,0 +1,46 @@
+header, footer {
+    background-color: lightblue;
+    padding: 5px;
+    text-align: center;
+    box-sizing: border-box;
+}
+div {
+    padding: 5px;
+    box-sizing: border-box;
+}
+#left {
+    background-color: #fefe;
+    font-style: italic;
+}
+#right {
+    background-color: #fefe;
+    text-decoration: underline;
+}
+
+@media (min-width: 992px){
+    body{
+        font-family: "Lucida Handwriting";
+        background: #4a4a4f;
+    }
+    div {
+        width: 25%;
+        float: left;
+        display: block;
+        height: 80vh;
+        overflow: auto;
+        padding: 10px;
+    }
+    #main {
+        background-image: url(https://scontent-bru2-1.xx.fbcdn.net/v/t1.0-9/36500706_1176829849120583_3790099048610922496_n.jpg?_nc_cat=0&oh=9272be7f11d83c3f595402f365bbfcec&oe=5B9F304F);
+        background-attachment: fixed;
+        font-weight: bold;
+        width: 50%;
+        text-align: justify;
+        margin: auto 0;
+    }
+        
+    header, footer {
+        width: 100%;
+        clear: both;
+    }
+}
