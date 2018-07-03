@@ -30,9 +30,10 @@ div {
         overflow: auto;
         padding: 10px;
     }
-    #main {
-        background-image: url(https://scontent-bru2-1.xx.fbcdn.net/v/t1.0-9/36500706_1176829849120583_3790099048610922496_n.jpg?_nc_cat=0&oh=9272be7f11d83c3f595402f365bbfcec&oe=5B9F304F);
-        background-attachment: fixed;
+    #story {
+        background-image: url(https://scontent-bru2-1.xx.fbcdn.net/v/t1.0-9/36576922_1177746699028898_4798587331403579392_n.jpg?_nc_cat=0&oh=71a43d63cf45c3cbe281d2e7af0c8080&oe=5BAA651C);
+        background-attachment: scroll;
+        background-size: cover;
         font-weight: bold;
         width: 50%;
         text-align: justify;
